@@ -26,7 +26,7 @@ class InputHandler {
             }
         });
 
-        this.canvas.addEventListener("click", event => {
+        this.canvas.addEventListener("keypress", event => {
             switch (this.game.gameState) {
                 case GAME_STATE.VILLAGE_STATE:
                     this.game.village.goToDestination(event);
@@ -79,7 +79,7 @@ class InputHandler {
             }
         });
 
-        this.canvas.addEventListener("mousemove", event => {
+        this.canvas.addEventListener("keypress", event => {
             switch (this.game.gameState) {
                 case GAME_STATE.FIGHT_STATE:
                     this.game.fight.displayDetails(event);
