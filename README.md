@@ -1,8 +1,8 @@
-Ninja-Saga
+Ninja Saga Remake
 
 A combat game created with vanilla JS.
 
-Play at https://rajshreeee.github.io/Ninja-Saga/
+Play at https://hadrianuspage.my.id/ninjasagaremake/
 
 Select a character with the left and right cursor keys and press enter to start the game.
 
