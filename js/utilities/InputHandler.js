@@ -2,7 +2,7 @@ class InputHandler {
     constructor(game, canvas) {
         this.game = game;
         this.canvas = canvas;
-        document.addEventListener("keydown", event => {
+        document.addEventListener("keypress", event => {
             //event occurs whenever a user presses a key
             switch (event.keyCode) {
                 case 13:
